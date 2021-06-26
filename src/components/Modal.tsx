@@ -5,6 +5,7 @@ type ModalProps = {
   img: string;
   h2Text: string;
   spanText: string;
+  svg?:ReactNode;
 }
 
 export function Modal(props: ModalProps) {
@@ -12,7 +13,7 @@ export function Modal(props: ModalProps) {
   return (
     <div className="modal">
       <div className="modal-content">
-        <img src={props.img} alt="" />
+        {props.svg ? props.svg :<img src={props.img} alt="" />}
         <h2>{props.h2Text}</h2>
         <span>{props.spanText}</span>
         <div className="button-group">
