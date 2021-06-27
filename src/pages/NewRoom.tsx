@@ -28,7 +28,7 @@ async function handleCreateRoom(event: FormEvent) {
     authorId: user?.id,
   }) // coloca a sala no banco
 
-  history.push(`/rooms/${firebaseRoom.key}`)// redireciona a sala
+  history.push(`/admin/rooms/${firebaseRoom.key}`)// redireciona a sala
 }
   return (
     <div id="page-auth">
