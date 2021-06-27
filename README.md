@@ -37,7 +37,7 @@ Assim dentro do arquivo .env.local vc deverá criar as seguintes variáveis e se
 No Realtime Database do seu projeto é possivel definir regras para leitura e escrita, e para funcionar devidamente deve-se colocar como está em __database.rule.json__ é so copiar e substituir lá.
 
 Para iniciar localmente execute os seguintes comandos
-> npm install (somente da primeira vez)
+> npm install (somente da primeira vez) \n
 > yarn start
 
 O projeto vai estar disponivel em: localhost:3000
